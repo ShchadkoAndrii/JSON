@@ -1,13 +1,20 @@
 {
-  "navigator": {
-  "vendorSub": "",
-  "productSub": 200408987,
-  "vendor": "Google Inc.",
-  "appCodeName": "Mozilla",
-  "appName": "Netscape",
-  "appVersion": "5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36",
-  "platform": "MacIntel",
-  "product": "Gecko",
-  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36",
-  "language": "en-US"
+"id":"B1",
+"summary":"Incomplete digits displaying of the number of items in the cart when entering a three-digit value",
+"preconditions": [ 
+                  "site is opened", 
+                  "any item added to cart", 
+                  "cart is opened"
+                 ],
+"steps to reproduce": [
+                       "1) enter '99' in the number of units of goods, press 'Enter'", 
+                       "2) click on '+' button"
+                      ],
+"expected result": "Full displaying of digits for the number of items in the cart",
+"actual result": "the digits of the number of items in the cart are not displayed completely",
+"severity": "minor",
+"priority": "low",
+"environment": "windows 10 Chrome 107.0.5304.88"
+"attachment": "link",
+"reporter": "Andrii"
 }
